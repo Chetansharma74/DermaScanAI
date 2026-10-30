@@ -1,0 +1,19 @@
+{
+    "status": "success",
+    "quality_score": 2.73,
+    "primary_diagnosis": "clear_face",
+    "confidence": 54.85,
+    "all_confidences": {
+        "acne": 36.88,
+        "clear_face": 54.85,
+        "darkspots": 3.94,
+        "puffy_eyes": 1.97,
+        "wrinkles": 2.37
+    },
+    "margin_results": {
+        "clear_face": 54.85
+    },
+    "prescription": "Your skin looks incredibly healthy and clear! To maintain this gorgeous baseline, to address this properly, let's begin with a double-cleansing routine at night, a lightweight ceramide moisturizer, and a silk pillowcase to prevent friction.",
+    "timestamp": "2026-10-16T14:59:01.818191",
+    "session_id": "5"
+}

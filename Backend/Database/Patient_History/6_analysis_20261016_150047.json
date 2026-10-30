@@ -1,0 +1,19 @@
+{
+    "status": "success",
+    "quality_score": 3.31,
+    "primary_diagnosis": "acne",
+    "confidence": 61.11,
+    "all_confidences": {
+        "acne": 61.11,
+        "clear_face": 25.33,
+        "darkspots": 9.74,
+        "puffy_eyes": 1.76,
+        "wrinkles": 2.07
+    },
+    "margin_results": {
+        "acne": 61.11
+    },
+    "prescription": "It's evident that we are looking at mid-level acne, but with a targeted routine, we can make real progress.  a solid game plan involves an Azelaic Acid 10% suspension Consistency is key\u2014stick with this for at least 3 weeks.",
+    "timestamp": "2026-10-16T15:00:47.887137",
+    "session_id": "6"
+}
