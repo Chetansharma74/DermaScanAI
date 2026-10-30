@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import API_BASE_URL from '../config';
 import './NewScan.css';
 
 const NewScan = ({ userId, setCurrentView }) => {
@@ -114,7 +115,7 @@ const NewScan = ({ userId, setCurrentView }) => {
     formData.append('file', selectedFile);
 
     try {
-      const response = await fetch('http://localhost:8000/api/predict/analyze', {
+      const response = await fetch(`${API_BASE_URL}/api/predict/analyze`, {
         method: 'POST',
         body: formData
       });
@@ -137,7 +138,7 @@ const NewScan = ({ userId, setCurrentView }) => {
 
     } catch (err) {
       if (err.name === 'TypeError' && err.message === 'Failed to fetch') {
-        setError('Could not connect to the AI backend at localhost:8000. Make sure the backend server is running.');
+        setError('Could not connect to the AI backend. Make sure the backend server is running.');
       } else {
         setError(err.message);
       }
